@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /* eles colocaram aqui o text align center para alinhar todos os textos do body */
 }
 
 img {
@@ -10,7 +11,25 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
+
+.plantas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  margin: 0 52px; /* add pq tava estranho o comportamento da margem */
+  
+}
+
+.UM, .DOIS, .TRES, .QUATRO {
+  max-width: 200px;
+  text-align: center;
+}
+
+
 
 /* do not edit this footer */
 .footer {
